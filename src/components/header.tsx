@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-
 import { Logo } from './logo'
 
 export function Header({ title }: { title?: string }) {

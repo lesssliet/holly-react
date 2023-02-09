@@ -1106,17 +1106,6 @@ select {
  * Utilites
  * -----------------------------------------------------------------------------
  */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
 .absolute {
   position: absolute;
 }
@@ -1291,11 +1280,6 @@ select {
 .justify-between {
   justify-content: space-between;
 }
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1352,6 +1336,16 @@ select {
 .from-secondary-500 {
   --tw-gradient-from: #f43f5e;
   --tw-gradient-to: rgb(244 63 94 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-primary-500 {
+  --tw-gradient-from: #6366f1;
+  --tw-gradient-to: rgb(99 102 241 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-primary-800 {
+  --tw-gradient-from: #3730a3;
+  --tw-gradient-to: rgb(55 48 163 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .to-primary-400 {
@@ -1417,10 +1411,6 @@ select {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
 .font-bold {
   font-weight: 700;
 }
@@ -1441,9 +1431,6 @@ select {
 }
 .leading-4 {
   line-height: 1rem;
-}
-.leading-10 {
-  line-height: 2.5rem;
 }
 .tracking-normal {
   letter-spacing: 0em;

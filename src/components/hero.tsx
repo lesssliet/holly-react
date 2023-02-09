@@ -78,7 +78,7 @@ export function Hero({
             >
               <NewsletterForm
                 className="m-0 mt-8 max-w-md md:flex"
-                submitText="Get early access"
+                submitText="Sign up!"
                 onSubmit={onNewsletterSubmit}
               />
             </div>

@@ -8,13 +8,12 @@ export default function AboutPage() {
         <ArticleContent title="About">
           {/* prettier-ignore */}
           <p>
-            Holly is a free HTML/CSS landing page designed and developed by <a href="https://twitter.com/pacovitiello">@pacovitiello</a> and <a href="https://twitter.com/DavidePacilio">@DavidePacilio</a>!
+            Health Tracker App was designed and developed by Leslie and Amanda.
           </p>
           <p>
-            Holly is suitable for all kind of startups, it's easily
-            customizable, and it's downloadable for personal and commercial use.
+            It was designed for patients to keep track of their blood test
+            results.
           </p>
-          <p>This template is distributed under the MIT License.</p>
         </ArticleContent>
 
         <ArticleMedia>

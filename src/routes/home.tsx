@@ -6,8 +6,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Hero
-        title="Landing template for startups"
-        content="Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+        title="Health App"
+        content="Sign up to get notified when the Health App launches."
         illustration={<HeroIllustration />}
       />
     </Layout>
